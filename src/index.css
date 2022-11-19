@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.top {
+  display: inline-flex;
+  flex-direction: row;
+
+}
+
+#monitor {
+  margin-top: 27px;
+  margin-left: 10px;
+}
+
+#cart {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.firstIconImg {
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.iconImg {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+
+.shoppingCartButton {
+  margin-top: 18px;
+  margin-left: 10px;
+}
+
+.asideText {
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.footer {
+  position: fixed;
+  left:0;
+  bottom:0;
+  right:0;
+}
+
+#registerButtonFooter {
+  background-color: '#FFFF00';
+}
+
+.searchHeader {
+  margin-top: 17px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.logo {
+  width: 200px;
+
+}
