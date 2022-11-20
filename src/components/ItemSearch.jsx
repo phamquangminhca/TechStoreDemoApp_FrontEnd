@@ -2,7 +2,6 @@ import { useState } from "react";
 import {BsSearch} from 'react-icons/bs'
 import React from 'react'
 import { Input} from 'antd';
-
 const { Search } = Input;
 
 function ItemSearch() {

@@ -49,11 +49,50 @@ code {
   margin-left: 5px;
 }
 
+.asideTextFooter {
+  margin-top: 11px;
+  margin-left: 5px;
+}
+
 .footer {
+  left:0;
+  bottom:0;
+  right:0;
+  display: inline-flex;
+  flex-direction: row;
+  height: 60px;
+  width: 100%;
+}
+
+.footerContact {
+  left:0;
+  bottom:0;
+  right:0;
+  display: inline-flex;
+  flex-direction: row;
+  height: fit-content;
+}
+
+.outerFooter {
   position: fixed;
   left:0;
   bottom:0;
   right:0;
+}
+
+.footerIcon {
+  margin-top: 15px;
+  margin-left: 15px
+}
+
+.firstFooterIcon {
+  margin-top: 15px;
+  margin-left: 100px
+}
+
+.mailFooterIcon {
+  margin-top: 15px;
+  margin-left: 400px
 }
 
 #registerButtonFooter {
@@ -64,6 +103,13 @@ code {
   margin-top: 17px;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.searchFooter {
+  margin-left: 50px;
+  margin-right: 100px;
+  margin-top: 15px;
+  width: 350px;
 }
 
 .logo {
