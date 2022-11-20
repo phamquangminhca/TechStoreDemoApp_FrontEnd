@@ -9,6 +9,7 @@ import {BsInstagram} from 'react-icons/bs'
 import {AiOutlineMail} from 'react-icons/ai'
 import { Input} from 'antd';
 import Contact from './Contact';
+import Copyright from './Copyright';
 const { Search } = Input;
 
 function Footer({ text, bgColor, textColor }) {
@@ -52,6 +53,7 @@ function Footer({ text, bgColor, textColor }) {
       </div>
 
       <Contact />
+      <Copyright />
     </footer>
     
   )

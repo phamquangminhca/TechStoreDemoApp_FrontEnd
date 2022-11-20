@@ -71,6 +71,7 @@ code {
   display: inline-flex;
   flex-direction: row;
   height: fit-content;
+  text-align: left;
 }
 
 .outerFooter {
@@ -115,4 +116,30 @@ code {
 .logo {
   width: 200px;
 
+}
+
+.logoFooter {
+  width: 200px;
+}
+
+.boldText {
+  font-weight: bold;
+}
+
+.methodsOfPayment {
+  width: 300px;
+}
+
+.contactDiv {
+  margin-left: 55px;
+  margin-top: 30px;
+}
+
+.firstContactDiv {
+  margin-top: 25px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 81px;
 }
