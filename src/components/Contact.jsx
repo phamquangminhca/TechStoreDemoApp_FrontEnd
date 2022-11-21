@@ -1,9 +1,9 @@
 import React from 'react'
-import logoFooter from '../images/logoFooter.png'
+import logoFooter from '../assets/images/logoFooter.png'
 import {FaMapMarkerAlt} from 'react-icons/fa'
 import {MdPhoneIphone} from 'react-icons/md'
 import {MdEmail} from 'react-icons/md'
-import methodsOfPayment from '../images/methodsOfPayment.png'
+import methodsOfPayment from '../assets/images/methodsOfPayment.png'
 
 
 function Contact() {
