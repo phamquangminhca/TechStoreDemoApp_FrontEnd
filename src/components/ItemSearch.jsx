@@ -23,7 +23,7 @@ function ItemSearch() {
         <button type="submit"><BsSearch /></button>
       </form> */}
 
-      <Search placeholder="Enter item's name..." onSearch={onSearch}  size="large" className="searchHeader" />
+      <Search placeholder="Enter item's name..." onSearch={onSearch}  size="large" className="header__search-bar" />
 
     </div>
   )

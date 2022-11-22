@@ -8,9 +8,9 @@ import methodsOfPayment from '../assets/images/methodsOfPayment.png'
 
 function Contact() {
   return (
-    <div className='footerContact'>
-      <div className='firstContactDiv'>
-        <img src={logoFooter} alt='LogoFooter' className='logoFooter' /> 
+    <div className='footer__contact-info'>
+      <div className='footer__contact-info_first-col'>
+        <img src={logoFooter} alt='LogoFooter' className='footer__contact-info-logo' /> 
         <br />
         <FaMapMarkerAlt />
         <span className='boldText'>Address:</span> Lầu 3 - Tòa nhà Lữ Gia - Số 70 Lữ Gia - P.15 - Q.11, Tp.HCM
@@ -21,7 +21,7 @@ function Contact() {
         <MdEmail />
         <span className='boldText'>Email:</span> support@sapo.vn
       </div>
-      <div className='contactDiv'>
+      <div className='footer__contact-info_other-cols'>
         <span className='boldText'>Customer Support</span>
         <br />
         About Us 
@@ -36,7 +36,7 @@ function Contact() {
         <br />
         Old phones trade-in
       </div>
-      <div className='contactDiv'>
+      <div className='footer__contact-info_other-cols'>
         <span className='boldText'>Policies</span>
         <br />
         Privacy Policies
@@ -47,7 +47,7 @@ function Contact() {
         <br />
         Deposit Policies 
       </div>
-      <div className='contactDiv'>
+      <div className='footer__contact-info_other-cols'>
         <span className='boldText'>Hotline supports</span>
         <br />
         For purchasing: 19006750 (8am-8pm)
@@ -58,7 +58,7 @@ function Contact() {
         <br />
         <span className='boldText'> Methods of Payment</span>
         <br />
-        <img src={methodsOfPayment} alt='Methods Of Payment' className='methodsOfPayment'/>
+        <img src={methodsOfPayment} alt='Methods Of Payment' className='footer__img-methods-of-payment'/>
       </div>
 
 

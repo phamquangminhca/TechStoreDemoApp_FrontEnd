@@ -3,7 +3,7 @@ import {MdCopyright} from 'react-icons/md'
 
 function Copyright() {
   return (
-    <div className='copyright'>
+    <div className='footer__copyright'>
         <MdCopyright />
         Copyrights belong to EGANY | Provided by Sapo
     </div>

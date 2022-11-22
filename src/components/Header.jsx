@@ -18,30 +18,28 @@ function Header({ text, bgColor, textColor }) {
 
   return (
     <header style={headerStyles}>
-        <div className='top'>
-            <img src={logo} alt='Logo' className='logo' />
-            {/* <FiMonitor id='monitor'/>
-            <BsCartDash id='cart' /> */}
+        <div className='header'>
+            <img src={logo} alt='Logo' className='header__logo' />
             <ItemSearch />
-            <BiPhoneCall className='firstIconImg' size={25}/>
-            <div className='asideText'>
+            <BiPhoneCall className='header__phone-icon' size={25}/>
+            <div className='header__text-next-to-icon'>
               <h8>Call to buy</h8>
               <br/>
               <h8>19006750</h8>
             </div>
-            <BiMap className='iconImg' size={25}/>
-            <div className='asideText'>
+            <BiMap className='header__map-icon' size={25}/>
+            <div className='header__text-next-to-icon'>
               <h8>Store</h8>
               <br/>
               <h8>Locations</h8>
             </div>
-            <AiOutlineUser className='iconImg' size={25} />
-            <div className='asideText'>
+            <AiOutlineUser className='header__profile-icon' size={25} />
+            <div className='header__text-next-to-icon'>
               <h8>Account</h8>
               <br/>
               <h8>Login</h8>
             </div>
-            <Button ghost color='white' className='shoppingCartButton'>
+            <Button ghost color='white' className='header__shopping-cart-button'>
               <BsCartDash size={15}/>
               <h8> Cart</h8>
             </Button>

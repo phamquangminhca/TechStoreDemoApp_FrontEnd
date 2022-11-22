@@ -12,49 +12,44 @@ code {
     monospace;
 }
 
-.top {
+.header {
   display: inline-flex;
   flex-direction: row;
 
 }
 
-#monitor {
-  margin-top: 27px;
-  margin-left: 10px;
-}
-
-#cart {
-  margin-top: 25px;
-  margin-left: 10px;
-}
-
-.firstIconImg {
+.header__phone-icon {
   margin-top: 25px;
   margin-left: 60px;
 }
 
-.iconImg {
+.header__map-icon {
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.header__profile-icon {
   margin-top: 25px;
   margin-left: 10px;
 }
 
 
-.shoppingCartButton {
+.header__shopping-cart-button {
   margin-top: 18px;
   margin-left: 10px;
 }
 
-.asideText {
+.header__text-next-to-icon {
   margin-top: 15px;
   margin-left: 5px;
 }
 
-.asideTextFooter {
+.footer__ads-text {
   margin-top: 11px;
   margin-left: 5px;
 }
 
-.footer {
+.footer__navbar {
   left:0;
   bottom:0;
   right:0;
@@ -64,7 +59,7 @@ code {
   width: 100%;
 }
 
-.footerContact {
+.footer__contact-info {
   left:0;
   bottom:0;
   right:0;
@@ -74,51 +69,53 @@ code {
   text-align: left;
 }
 
-.outerFooter {
+.footer {
   position: fixed;
   left:0;
   bottom:0;
   right:0;
 }
 
-.footerIcon {
+.footer__icon-zalo {
   margin-top: 15px;
   margin-left: 15px
 }
 
-.firstFooterIcon {
+.footer__icon-instagram {
+  margin-top: 15px;
+  margin-left: 15px
+}
+
+.footer__icon-facebook {
   margin-top: 15px;
   margin-left: 100px
 }
 
-.mailFooterIcon {
+.footer__icon-email {
   margin-top: 15px;
   margin-left: 400px
 }
 
-#registerButtonFooter {
-  background-color: '#FFFF00';
-}
 
-.searchHeader {
+.header__search-bar {
   margin-top: 17px;
   margin-left: 50px;
   margin-right: 50px;
 }
 
-.searchFooter {
+.footer__search-bar {
   margin-left: 50px;
   margin-right: 100px;
   margin-top: 15px;
   width: 350px;
 }
 
-.logo {
+.header__logo {
   width: 200px;
 
 }
 
-.logoFooter {
+.footer__contact-info-logo {
   width: 200px;
 }
 
@@ -126,20 +123,20 @@ code {
   font-weight: bold;
 }
 
-.methodsOfPayment {
+.footer__img-methods-of-payment {
   width: 300px;
 }
 
-.contactDiv {
+.footer__contact-info_other-cols {
   margin-left: 55px;
   margin-top: 30px;
 }
 
-.firstContactDiv {
+.footer__contact-info_first-col {
   margin-top: 25px;
 }
 
-.copyright {
+.footer__copyright {
   text-align: left;
   margin-left: 81px;
 }

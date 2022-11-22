@@ -14,42 +14,31 @@ const { Search } = Input;
 
 function Footer({ text, bgColor, textColor }) {
 
-  const [email, setEmail] = useState('')
 
   const footerStyles = {
     backgroundColor: bgColor,
     color: textColor,
   }
 
-  // const handleSubmit = async (e) => {
-
-  // }
-
-  // const handleChange = (e) => {
-  //   setEmail(e.target.value)
-  // }
 
   const onSearch = async (e) => {
 
   }
      
   return (
-    <footer  className='outerFooter'>
-      <div className='footer' style={footerStyles}>
-      <BsFacebook className='firstFooterIcon' size={30} />
-      <SiZalo className='footerIcon' size={30}/>
-      <BsInstagram className='footerIcon' size={30}/>
-      <AiOutlineMail className='mailFooterIcon' size={30}/>
-      <div className='asideTextFooter'>
+    <footer  className='footer'>
+      <div className='footer__navbar' style={footerStyles}>
+      <BsFacebook className='footer__icon-facebook' size={30} />
+      <SiZalo className='footer__icon-zalo' size={30}/>
+      <BsInstagram className='footer__icon-instagram' size={30}/>
+      <AiOutlineMail className='footer__icon-email' size={30}/>
+      <div className='footer__ads-text'>
           <h8>Do you want special promotion?</h8>
             <br/>
           <h8>Register now!</h8>
       </div>
-      {/* <form onSubmit={handleSubmit}>
-        <input type='text' placeholder="Enter item's name..." value={email} onChange={handleChange} />
-        <button type="submit" id='registerButtonFooter'>Register</button>
-      </form> */}
-      <Search placeholder="Enter email to get promotion..." onSearch={onSearch} className="searchFooter" enterButton='Register' />
+
+      <Search placeholder="Enter email to get promotion..." onSearch={onSearch} className="footer__search-bar" enterButton='Register' />
       </div>
 
       <Contact />
