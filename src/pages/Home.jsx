@@ -1,11 +1,11 @@
 import React from 'react'
 import Banner from '../components/Banner'
-import ItemsCategories from '../components/Menu'
+import Menu from '../components/Menu'
 
 function Home() {
   return (
-    <div>
-      <ItemsCategories />
+    <div className='home'>
+      <Menu />
       <Banner />
     </div>
   )

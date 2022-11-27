@@ -3,13 +3,15 @@ import {
     RouterProvider, 
     Route, 
 } from "react-router-dom";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import ErrorPage from "./pages/ErrorPage";
 import Home from "./pages/Home";
 
 export const router = createBrowserRouter([
     {
         path: '/',
-        element: <Home />
+        element:<Home />
     },
     {
         path: '/error',

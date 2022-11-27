@@ -5,7 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -20,7 +22,7 @@ code {
 
 .header__phone-icon {
   margin-top: 25px;
-  margin-left: 60px;
+  margin-left: 100px;
 }
 
 .header__map-icon {
@@ -70,7 +72,6 @@ code {
 }
 
 .footer {
-  position: fixed;
   left:0;
   bottom:0;
   right:0;
@@ -139,4 +140,10 @@ code {
 .footer__copyright {
   text-align: left;
   margin-left: 81px;
+}
+
+.home {
+  padding-bottom: 50px;
+  display: inline-flex;
+  flex-direction: row;
 }

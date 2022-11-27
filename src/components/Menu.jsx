@@ -15,6 +15,7 @@ function ItemsCategories() {
     <div>
       <Space>
       <Menu 
+        className='menu'
         mode='inline' 
         onClick={(info) => {
           console.log(info.key)
@@ -88,7 +89,7 @@ function ItemsCategories() {
            ]},
           {label : "Cases", key : "cases", icon: <MdOutlineAddModerator/>},
           {label : "Phone Accessories", key : "phone accessories", icon: <BiGame/> },
-          {label : "Exchange", key : "exchange", icon: <iSmartphone/>},
+          {label : "Exchange", key : "exchange", icon: <FiSmartphone/>},
          
       ]}></Menu>
       </Space>
