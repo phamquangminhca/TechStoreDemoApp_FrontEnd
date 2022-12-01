@@ -147,3 +147,64 @@ code {
   display: inline-flex;
   flex-direction: row;
 }
+
+.banner__main-slide {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.banner__left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.banner__right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+}
+
+.banner__slider-image {
+
+}
+
+.banner {
+  /* margin-top: 10px; */
+}
+
+.slider-bottom-image {
+  width: 285px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.banner__top {
+  margin-top: 20px;
+  margin-left: 20px;
+  /* margin-bottom: 10px; */
+  text-align: left;
+}
