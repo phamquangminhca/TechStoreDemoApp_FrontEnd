@@ -205,6 +205,41 @@ code {
 .banner__top {
   margin-top: 20px;
   margin-left: 20px;
-  /* margin-bottom: 10px; */
   text-align: left;
+}
+
+.banner__top_options {
+  display: inline-block;
+  /* align-items: center; */
+  position: relative;
+}
+
+.banner__top_imgs {
+  width: 48px;
+  display: inline-block;
+  position: absolute;
+  /* align-items: center; */
+}
+
+.banner__top_options-text {
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+a:link { 
+  text-decoration: none; 
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: red;
 }

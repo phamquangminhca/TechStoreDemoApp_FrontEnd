@@ -3,6 +3,9 @@ import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import { FiSmartphone } from 'react-icons/fi'
 import { AiOutlineShoppingCart, AiOutlineCreditCard } from 'react-icons/ai'
 import { Divider } from 'antd';
+import image1 from '../assets/images/image1.png'
+import image2 from '../assets/images/image2.png'
+import image3 from '../assets/images/image3.png'
 
 function Banner() {
   const sliderData = [
@@ -29,12 +32,19 @@ function Banner() {
   return (
     <div className='banner'>
         <div className='banner__top'>
-            <FiSmartphone/>
-            Help selling old devices &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <AiOutlineShoppingCart/>
-            Help shopping online &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <AiOutlineCreditCard />
-            Help financing
+          <div className='banner__top_options'>
+            <img src={image1} alt='image1' className='banner__top_imgs' />
+            <a href='./' className='banner__top_options-text'>Help selling old devices</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+          <div className='banner__top_options'>
+            <img src={image2} alt='image2' className='banner__top_imgs' />
+            <a href='./' className='banner__top_options-text'>Help shopping online</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </div>
+          <div className='banner__top_options'>
+            <img src={image3} alt='image3' className='banner__top_imgs' />
+            <a href='./' className='banner__top_options-text'>Help financing</a>
+          </div>
+
             <Divider/>
         </div>
         
