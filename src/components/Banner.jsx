@@ -1,7 +1,5 @@
 import React, {useState} from 'react'
 import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
-import { FiSmartphone } from 'react-icons/fi'
-import { AiOutlineShoppingCart, AiOutlineCreditCard } from 'react-icons/ai'
 import { Divider } from 'antd';
 import image1 from '../assets/images/image1.png'
 import image2 from '../assets/images/image2.png'
