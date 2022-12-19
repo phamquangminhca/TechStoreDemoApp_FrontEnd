@@ -1,7 +1,7 @@
 import React from 'react'
-import { useState } from "react";
+// import { useState } from "react";
 import PropTypes from 'prop-types'
-import { Button } from 'antd';
+// import { Button } from 'antd';
 // import 'antd/dist/reset.css';
 import {BsFacebook} from 'react-icons/bs'
 import {SiZalo} from 'react-icons/si'

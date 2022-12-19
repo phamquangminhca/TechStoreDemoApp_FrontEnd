@@ -8,7 +8,6 @@ import {BiMap} from 'react-icons/bi'
 import {AiOutlineUser} from 'react-icons/ai'
 import { Button } from 'antd'
 
-
 function Header({ text, bgColor, textColor }) {
 
   const headerStyles = {

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Menu, Space} from 'antd';
-import { BsList } from 'react-icons/bs';
 import giftbox from "../assets/images/giftbox.webp"
 import phoneIcon from "../assets/images/phoneIcon.webp"
 import tabletIcon from "../assets/images/tabletIcon.webp"
@@ -12,6 +11,7 @@ import casesIcon from "../assets/images/casesIcon.webp"
 import accessoriesIcon from "../assets/images/accessoriesIcon.webp"
 import charger1Icon from "../assets/images/charger1Icon.webp"
 import charger2Icon from "../assets/images/charger2Icon.webp"
+import listItemsIcon from "../assets/images/listItemsIcon.png"
 
 
 function ItemsCategories() {
@@ -22,16 +22,20 @@ function ItemsCategories() {
       <Space>
       <Menu 
         className='menu'
-        mode='inline' 
+        style={{
+          width: 270,
+          textAlign: 'left',
+        }}
+        mode='vertical'
         onClick={(info) => {
           console.log(info.key)
         }}
         items={[
-          {label : "Items List", key : "list", icon: <BsList/>},
-          {label : "All promotions", key : "promotions", icon : <img src={giftbox} alt='' />},
+          {label : "ITEMS LIST", key : "list", icon: <img src={listItemsIcon} style={{'float': 'left', "marginTop":"5px"}}  width='30px' alt=''/>, style: {"background-color":"#2F4857", "color":"white", "font-weight":"bold"}},
+          {label : "All promotions", key : "promotions", icon : <img src={giftbox} style={{'float': 'left'}} alt='' />, style: { 'display': 'inline-block'}},
           {label : "Cell Phones", 
            key : "phones", 
-           icon: <img src={phoneIcon} alt='' />, 
+           icon: <img src={phoneIcon} alt='' style={{"float":"left", "marginTop":"5px"}}/>, 
            children: [
             {label : "Apple", key : "apple phones"},
             {label : "Samsung", key : "samsung phones"},
@@ -40,7 +44,7 @@ function ItemsCategories() {
            ]},
            {label : "Tablets", 
            key : "tablets", 
-           icon: <img src={tabletIcon} alt='' />, 
+           icon: <img src={tabletIcon} alt='' style={{'float': 'left', "marginTop":"5px"}}  />, 
            children: [
             {label : "Samsung", key : "samsung tablets"},
             {label : "Ipad", key : "ipads"},
@@ -51,7 +55,7 @@ function ItemsCategories() {
            ]},
            {label : "Earphones", 
            key : "earphones", 
-           icon: <img src={earphonesIcon} alt='' />, 
+           icon: <img src={earphonesIcon} alt='' style={{'float': 'left', "marginTop":"5px"}} />, 
            children: [
             {label : "Samsung", key : "samsung earphones"},
             {label : "Apple", key : "airpods"},
@@ -62,7 +66,7 @@ function ItemsCategories() {
            ]},
            {label : "Smart Watches", 
            key : "smart watches", 
-           icon: <img src={smartwatchIcon} alt='' />, 
+           icon: <img src={smartwatchIcon} alt='' style={{'float': 'left', "marginTop":"5px"}} />, 
            children: [
             {label : "Samsung", key : "samsung smartwatches"},
             {label : "Garmin", key : "garmin smartwatches"},
@@ -73,7 +77,7 @@ function ItemsCategories() {
            ]},
            {label : "Portable Chargers", 
            key : "portable chargers", 
-           icon: <img src={portablechargerIcon} alt='' />, 
+           icon: <img src={portablechargerIcon} alt='' style={{'float': 'left', "marginTop":"5px"}} />, 
            children: [
             {label : "Ava", key : "ava chargers"},
             {label : "Anker", key : "anker chargers"},
@@ -84,7 +88,7 @@ function ItemsCategories() {
            ]},
            {label : "Bluetooth Speakers", 
            key : "bluetooth speakers", 
-           icon: <img src={bluetoothspeakerIcon} alt='' />, 
+           icon: <img src={bluetoothspeakerIcon} alt='' style={{'float': 'left', "marginTop":"5px"}} />, 
            children: [
             {label : "Sony", key : "sony speakers"},
             {label : "JBL", key : "jbl speakers"},
@@ -93,12 +97,12 @@ function ItemsCategories() {
             {label : "HOCO", key : "hoco speakers"},
             {label : "Xiaomi", key : "xiaomi speakers"},
            ]},
-          {label : "Cases", key : "cases", icon: <img src={casesIcon} alt='' />},
-          {label : "Chargers 1", key : "chargers 1", icon: <img src={charger1Icon} alt='' />},
-          {label : "Chargers 2", key : "chargers 2", icon: <img src={charger2Icon} alt='' />},
+          {label : "Cases", key : "cases", icon: <img src={casesIcon} alt='' style={{'float': 'left', "marginTop":"5px"}} />},
+          {label : "Chargers 1", key : "chargers 1", icon: <img src={charger1Icon} alt='' style={{'float': 'left', "marginTop":"5px"}} />},
+          {label : "Chargers 2", key : "chargers 2", icon: <img src={charger2Icon} alt='' style={{'float': 'left', "marginTop":"5px"}}/>},
           {label : "Phone Accessories", 
           key : "phone accessories", 
-          icon: <img src={accessoriesIcon} alt='' />, 
+          icon: <img src={accessoriesIcon} alt='' style={{'float': 'left', "marginTop":"5px"}}/>, 
           children: [
             {label : "Sound devices", key : "sound devices"},
             {label : "Storage devices", key : "storage devices"},
@@ -107,7 +111,7 @@ function ItemsCategories() {
             {label : "Keychains", key : "keychains"},
             {label : "Waterproof bags", key : "waterproof bags"},
            ]},
-          {label : "Exchange", key : "exchange", icon: <img src={phoneIcon} alt='' />},
+          {label : "Exchange", key : "exchange", icon: <img src={phoneIcon} alt='' style={{'float': 'left', "marginTop":"5px"}}/>},
          
       ]}></Menu>
       </Space>

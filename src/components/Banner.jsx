@@ -4,6 +4,8 @@ import { Divider } from 'antd';
 import image1 from '../assets/images/image1.png'
 import image2 from '../assets/images/image2.png'
 import image3 from '../assets/images/image3.png'
+import { useEffect } from 'react';
+import { autoSlide } from './autoSlide';
 
 function Banner() {
   const sliderData = [
@@ -11,8 +13,11 @@ function Banner() {
     {image: 'https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/slider_2.jpg?1667792117405'}
   ]
 
-  const [current, setCurrent] = useState(0)
-  const length = sliderData.length
+  useEffect(() => {
+    autoSlide()
+  })
+
+  const [current, setCurrent] = useState(1)
 
 
   if (!Array.isArray(sliderData) || sliderData.length <= 0) {
@@ -20,11 +25,11 @@ function Banner() {
   }
 
   const prevSlide = () => {
-    setCurrent(current === 0 ? length - 1 : current - 1)
+    setCurrent(current === 1 ? 2 : 1)
   }
 
   const nextSlide = () => {
-    setCurrent(current === length - 1 ? 0 : current + 1)
+    setCurrent(current === 2 ? 1 : 2)
   }
 
   return (
@@ -46,7 +51,7 @@ function Banner() {
             <Divider/>
         </div>
         
-        <div className='banner__main-slide'>
+        {/* <div className='banner__main-slide'>
             <FaArrowAltCircleLeft className='banner__left-arrow' onClick={prevSlide} />
             <FaArrowAltCircleRight className='banner__right-arrow' onClick={nextSlide} />
 
@@ -57,7 +62,39 @@ function Banner() {
                     </div>
                 )
             })}
+        </div> */}
+
+        <div className='slider'>
+          <div className='slides'>
+            <input type='radio' name='radio-btn' id='radio1'/>
+            <input type='radio' name='radio-btn' id='radio2'/>
+
+            <FaArrowAltCircleLeft className='banner__left-arrow' onClick={prevSlide} />
+            <FaArrowAltCircleRight className='banner__right-arrow' onClick={nextSlide} />
+
+            <div className='banner__main-slide first_img'>
+              <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/slider_1.jpg?1667792117405' alt=''/>
+            </div>
+            <div className='banner__main-slide'>
+              <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/slider_2.jpg?1667792117405' alt='' />
+            </div>
+
+            <div className='banner_navigation-auto'>
+              <div className='auto-btn1'></div>
+              <div className='auto-btn2'></div>
+            </div>
+          </div>
+
+          <div className='banner_navigation-manual'>
+            <label for='radio1' className='manual-btn' ></label>
+            <label for='radio2' className='manual-btn' ></label>
+            {/* <label for='radio3' className='manual-btn' ></label>
+            <label for='radio4' className='manual-btn' ></label> */}
+
+          </div>
+
         </div>
+
         <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/bottom_banner_1.jpg?1667792117405' alt='' className='slider-bottom-image' />
         <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/bottom_banner_2.jpg?1667792117405' alt='' className='slider-bottom-image' />
         <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/bottom_banner_3.jpg?1667792117405' alt='' className='slider-bottom-image' />
