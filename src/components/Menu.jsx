@@ -32,7 +32,7 @@ function ItemsCategories() {
         }}
         items={[
           {label : "ITEMS LIST", key : "list", icon: <img src={listItemsIcon} style={{'float': 'left', "marginTop":"5px"}}  width='30px' alt=''/>, style: {"background-color":"#2F4857", "color":"white", "font-weight":"bold"}},
-          {label : "All promotions", key : "promotions", icon : <img src={giftbox} style={{'float': 'left'}} alt='' />, style: { 'display': 'inline-block'}},
+          {label : "All promotions", key : "promotions", icon : <img src={giftbox} style={{'float': 'left'}} alt='' />},
           {label : "Cell Phones", 
            key : "phones", 
            icon: <img src={phoneIcon} alt='' style={{"float":"left", "marginTop":"5px"}}/>, 

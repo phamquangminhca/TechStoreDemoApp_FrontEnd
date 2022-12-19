@@ -168,6 +168,7 @@ code {
 .slides {
   display: flex;
   position: relative;
+  margin-top: 10px;
 }
 
 .banner__left-arrow {
@@ -206,7 +207,7 @@ code {
 .slider-bottom-image {
   width: 285px;
   margin-left: 15px;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .banner__top {
@@ -324,3 +325,9 @@ code {
 #radio2:checked ~ .banner_navigation-auto .auto-btn2 {
   background: white;
 }
+
+.slider-bottom-image:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+
