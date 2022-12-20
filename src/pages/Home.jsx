@@ -2,6 +2,7 @@ import React from 'react'
 import Banner from '../components/Banner'
 import Menu from '../components/Menu'
 import ListItems from '../components/ListItems'
+import ListPromotions from '../components/ListPromotions'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Banner />
       </div>
       <ListItems/>
+      <ListPromotions/>
     </div>
   )
 }
