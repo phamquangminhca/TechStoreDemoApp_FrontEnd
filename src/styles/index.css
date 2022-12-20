@@ -331,3 +331,51 @@ code {
   transition: 1s;
 }
 
+.home-top {
+  /* display: flex; 
+  flex-direction: column; */
+}
+
+.list-items {
+  display:flex; 
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+}
+
+.item {
+  margin-left: 30px;
+}
+
+.item__text-size{
+  font-size: 14px;
+}
+
+.align-item:hover {
+  color: red;
+}
+
+
+
+@keyframes itemAnimation {
+  0% {transform: scale(1);}
+  20% {
+    transform: scale(0.9) rotate(10deg);
+  }
+  40% {
+    transform: scale(1.1) rotate(-10deg);
+  }  
+  60% {
+    transform: scale(1.1) rotate(10deg);
+  }  
+  80% {
+    transform: scale(1.1) rotate(-10deg);
+  }  
+  100% {transform: scale(1);}    
+
+}
+
+.item__image:hover {
+  animation-name: itemAnimation;
+  animation-duration: 1s;
+}
