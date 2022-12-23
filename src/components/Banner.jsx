@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
+import React from 'react'
+// import {FaArrowAltCircleRight, FaArrowAltCircleLeft} from 'react-icons/fa'
 import { Divider } from 'antd';
 import image1 from '../assets/images/image1.png'
 import image2 from '../assets/images/image2.png'
@@ -17,20 +17,20 @@ function Banner() {
     autoSlide()
   })
 
-  const [current, setCurrent] = useState(1)
+  // const [current, setCurrent] = useState(1)
 
 
   if (!Array.isArray(sliderData) || sliderData.length <= 0) {
     return null
   }
 
-  const prevSlide = () => {
-    setCurrent(current === 1 ? 2 : 1)
-  }
+  // const prevSlide = () => {
+  //   setCurrent(current === 1 ? 2 : 1)
+  // }
 
-  const nextSlide = () => {
-    setCurrent(current === 2 ? 1 : 2)
-  }
+  // const nextSlide = () => {
+  //   setCurrent(current === 2 ? 1 : 2)
+  // }
 
   return (
     <div className='banner'>
@@ -69,8 +69,8 @@ function Banner() {
             <input type='radio' name='radio-btn' id='radio1'/>
             <input type='radio' name='radio-btn' id='radio2'/>
 
-            <FaArrowAltCircleLeft className='banner__left-arrow' onClick={prevSlide} />
-            <FaArrowAltCircleRight className='banner__right-arrow' onClick={nextSlide} />
+            {/* <FaArrowAltCircleLeft className='banner__left-arrow' onClick={prevSlide} />
+            <FaArrowAltCircleRight className='banner__right-arrow' onClick={nextSlide} /> */}
 
             <div className='banner__main-slide first_img'>
               <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/slider_1.jpg?1667792117405' alt=''/>
