@@ -441,3 +441,37 @@ code {
   color: #ff545c;
   font-weight: bold;
 }
+
+.list-discount-items {
+  display:flex; 
+  flex-direction: row;
+  justify-content: center; 
+  align-items: center;
+  background-color: #FED100;
+}
+
+.discount-item {
+
+}
+
+.discount-item__white-block {
+  height: 220px;
+  width: 220px;
+  background-color: white;
+  position: absolute;
+}
+
+.discount-item__img-frame {
+  width: 220px;
+  position: absolute;
+  z-index: 2;
+}
+
+.discount-item__img {
+  transform: scale(0.8) translateY(10px) ;
+  width: 220px;
+  z-index: 1;
+}
+
+
+

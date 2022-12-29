@@ -3,6 +3,7 @@ import Banner from '../components/Banner'
 import Menu from '../components/Menu'
 import ListItems from '../components/ListItems'
 import ListPromotions from '../components/ListPromotions'
+import ListDiscountItems from '../components/ListDiscountItems'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       </div>
       <ListItems/>
       <ListPromotions/>
+      <ListDiscountItems/>
     </div>
   )
 }
