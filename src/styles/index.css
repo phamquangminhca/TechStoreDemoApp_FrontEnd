@@ -443,15 +443,30 @@ code {
 }
 
 .list-discount-items {
+  background-color: #FED100;
+  width: 1265px;
+  margin-left: 90px;
+  margin-top: 35px;
+}
+
+.list-discount-items__bottom {
   display:flex; 
   flex-direction: row;
   justify-content: center; 
   align-items: center;
-  background-color: #FED100;
+
 }
 
 .discount-item {
+  margin-left: 8px;
+  height: 400px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
 
+.discount-item p {
+  width: 220px;
 }
 
 .discount-item__white-block {
@@ -473,5 +488,77 @@ code {
   z-index: 1;
 }
 
+.list-discount-items__top_text {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
 
+.clock {
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 15px;
+  /* border: 2px solid silver; */
+  /* background-color: black; */
+}
 
+.clock section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.clock section p {
+}
+
+.clock small {
+  color: white;
+  
+}
+
+.clock span {
+  color: black;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.list-discount-items__top {
+  display: inline-flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-container {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.list-discount-items__top_img {
+  margin-left: 25px;
+  height: 20px;
+
+}
+
+.dicount-item__numbers-sold {
+  background-color: #ff444c;
+  border-radius: 10px;
+  color: white;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 200px;
+}
+
+.dicount-item__numbers-sold small {
+  margin-left: 3px;
+}
