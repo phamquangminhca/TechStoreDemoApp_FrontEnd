@@ -8,23 +8,23 @@ function Clock({timerDays, timerHours, timerMinutes, timerSeconds}) {
         <section className='timer'>
             <div className="clock">
                 <section>
-                    <p>{timerDays}</p>
+                    {timerDays}
                     <small>Days</small>
                 </section>
                 <span>:</span>
                 <section>
-                    <p>{timerHours}</p>
+                    {timerHours}
                     <small>Hours</small>
                 </section>{" "}
                 <span>:</span>
                 <section>
-                    <p>{timerMinutes}</p>
-                    <small>Minutes</small>
+                    {timerMinutes}
+                    <small>Mins</small>
                 </section>{" "}
                 <span>:</span>
                 <section>
-                    <p>{timerSeconds}</p>
-                    <small>Seconds</small>
+                    {timerSeconds}
+                    <small>Secs</small>
                 </section>
             </div>
         </section>
