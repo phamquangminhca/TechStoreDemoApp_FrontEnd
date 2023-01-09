@@ -270,7 +270,7 @@ code {
 }
 
 .banner__main-slide {
-  transition: 6s;
+  transition: 1s;
 }
 
 .textSlide {
@@ -382,6 +382,7 @@ code {
 .home-top {
   /* display: flex; 
   flex-direction: column; */
+  margin-bottom: 80px;
 }
 
 .list-items {
@@ -589,7 +590,7 @@ code {
 .list-discount-items__top_text {
   font-weight: bold;
   font-size: 20px;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .clock {
@@ -659,3 +660,12 @@ code {
   margin-left: 3px;
 }
 
+.slick-slider {
+  width: 50%;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.slick-slider span {
+  margin-left: 10px;
+}

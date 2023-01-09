@@ -6,7 +6,7 @@ export const autoSlide = () => {
         if (counter > 2) {
             counter = 1;
         }
-    }, 5000)
+    }, 3000)
 }
 
 export const autoTextSlide = () => {
