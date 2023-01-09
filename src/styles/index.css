@@ -148,10 +148,6 @@ code {
   flex-direction: row;
 }
 
-.banner__slider-image {
-  /* transition: 2s; */
-}
-
 .banner__main-slide {
   position: relative;
   display: flex;
@@ -356,10 +352,6 @@ code {
   padding: 5px;
   border-radius: 10px;
   transition: 1s;
-}
-
-.text-slide_navigation-auto div {
-  /* transition: 6s; */
 }
 
 .banner_navigation-auto div:not(:last-child) {
