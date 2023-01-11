@@ -33,9 +33,9 @@ function Footer({ text, bgColor, textColor }) {
       <BsInstagram className='footer__icon-instagram' size={30}/>
       <AiOutlineMail className='footer__icon-email' size={30}/>
       <div className='footer__ads-text'>
-          <h8>Do you want special promotion?</h8>
+          <span>Do you want special promotion?</span>
             <br/>
-          <h8>Register now!</h8>
+          <span>Register now!</span>
       </div>
 
       <Search placeholder="Enter email to get promotion..." onSearch={onSearch} className="footer__search-bar" enterButton='Register' />

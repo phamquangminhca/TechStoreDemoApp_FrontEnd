@@ -391,9 +391,11 @@ header {
 
 .list-promotions {
   display:flex; 
-  flex-direction: row;
-  justify-content: center; 
-  align-items: center;
+  /* flex-direction: row; */
+  /* justify-content: center;  */
+  /* align-items: center; */
+  margin: auto;
+  width: 92%;
   margin-top: 40px;
   margin-bottom: 20px;
 }
@@ -491,7 +493,11 @@ header {
 .list-discount-items {
   background-color: #FED100;
   width: 1265px;
-  margin-left: 90px;
+  /* margin-left: 90px; */
+  margin: auto;
+  width: 90%;
+  left: 50%;
+  text-align: center;
   margin-top: 35px;
   height: 555px;
   margin-bottom: 10px;
@@ -587,7 +593,7 @@ header {
 .list-discount-items__top_text {
   font-weight: bold;
   font-size: 20px;
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .clock {

@@ -55,7 +55,7 @@ function ListDiscountItems() {
         <div className='list-discount-items__top'>
             <span className='list-discount-items__top_text'>SHOCKING 50% SALE</span>
             <img src={hotGif} alt='' className='list-discount-items__top_img'/>
-            <span style={{"marginLeft":"710px"}}>Ends in</span>
+            <span style={{"marginLeft":"770px"}}>Ends in</span>
             <Clock timerDays={timerDays} timerHours={timerHours} timerMinutes={timerMinutes} timerSeconds={timerSeconds}/>
         </div>
         <div style={{"textAlign":"left"}}>
@@ -63,11 +63,11 @@ function ListDiscountItems() {
         </div>
         <SlickSlider />
         <div className='list-discount-items__bottom'>
-            <DiscountItem img={discountItem1} productName='Apple Watch Series 7 Aluminium Cellular' price='20.490.000VND' numItemsSold='231' goodRating={true} imgBack={discountItemBack1}/>
-            <DiscountItem img={discountItem2} productName='Mozard S21 Bluetooth Speaker' price='550.000VND' numItemsSold='264' goodRating={true}/>
-            <DiscountItem img={discountItem3} productName='eValu Spanker' price='220.000VND' numItemsSold='123' goodRating={false}/>
-            <DiscountItem img={discountItem4} productName='Xmobile Gram 4' price='450.000VND' numItemsSold='183' goodRating={false}/>
-            <DiscountItem img={discountItem5} productName='Xmobile Gram 4 Dull Dog' price='420.000VND' numItemsSold='111' goodRating={false}/>
+            <DiscountItem img={discountItem1} productName='Apple Watch Series 7 Aluminium Cellular' price='20.490.000VND' numItemsSold='231' rating={5} imgBack={discountItemBack1}/>
+            <DiscountItem img={discountItem2} productName='Mozard S21 Bluetooth Speaker' price='550.000VND' numItemsSold='264' rating={5}/>
+            <DiscountItem img={discountItem3} productName='eValu Spanker' price='220.000VND' numItemsSold='123' rating={0}/>
+            <DiscountItem img={discountItem4} productName='Xmobile Gram 4' price='450.000VND' numItemsSold='183' rating={0}/>
+            <DiscountItem img={discountItem5} productName='Xmobile Gram 4 Dull Dog' price='420.000VND' numItemsSold='111' rating={0}/>
         </div>
 
     </div>

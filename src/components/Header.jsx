@@ -22,25 +22,25 @@ function Header({ text, bgColor, textColor }) {
             <ItemSearch />
             <BiPhoneCall className='header__phone-icon' size={25}/>
             <div className='header__text-next-to-icon'>
-              <h8>Call to buy</h8>
+              <span>Call to buy</span>
               <br/>
-              <h8>19006750</h8>
+              <span>19006750</span>
             </div>
             <BiMap className='header__map-icon' size={25}/>
             <div className='header__text-next-to-icon'>
-              <h8>Store</h8>
+              <span>Store</span>
               <br/>
-              <h8>Locations</h8>
+              <span>Locations</span>
             </div>
             <AiOutlineUser className='header__profile-icon' size={25} />
             <div className='header__text-next-to-icon'>
-              <h8>Account</h8>
+              <span>Account</span>
               <br/>
-              <h8>Login</h8>
+              <span>Login</span>
             </div>
             <Button ghost color='white' className='header__shopping-cart-button'>
               <BsCartDash size={15}/>
-              <h8> Cart</h8>
+              <span> Cart</span>
             </Button>
         </div>
 

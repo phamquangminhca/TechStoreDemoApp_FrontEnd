@@ -7,11 +7,11 @@ function Clock({timerDays, timerHours, timerMinutes, timerSeconds}) {
       <section className='timer-container'>
         <section className='timer'>
             <div className="clock">
-                <section>
+                {/* <section>
                     {timerDays}
                     <small>Days</small>
                 </section>
-                <span>:</span>
+                <span>:</span> */}
                 <section>
                     {timerHours}
                     <small>Hours</small>
