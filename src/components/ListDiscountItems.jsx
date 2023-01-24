@@ -21,7 +21,7 @@ function ListDiscountItems() {
   let interval
 
   const startTimer = () => {
-    const countDownDate = new Date("January 20, 2023").getTime()
+    const countDownDate = new Date("December 20, 2030").getTime()
 
     interval = setInterval(() => {
         const now = new Date().getTime()
@@ -63,11 +63,11 @@ function ListDiscountItems() {
         </div>
         <SlickSlider />
         <div className='list-discount-items__bottom'>
-            <DiscountItem img={discountItem1} productName='Apple Watch Series 7 Aluminium Cellular' price='20.490.000VND' numItemsSold='231' rating={5} imgBack={discountItemBack1}/>
-            <DiscountItem img={discountItem2} productName='Mozard S21 Bluetooth Speaker' price='550.000VND' numItemsSold='264' rating={5}/>
-            <DiscountItem img={discountItem3} productName='eValu Spanker' price='220.000VND' numItemsSold='123' rating={0}/>
-            <DiscountItem img={discountItem4} productName='Xmobile Gram 4' price='450.000VND' numItemsSold='183' rating={0}/>
-            <DiscountItem img={discountItem5} productName='Xmobile Gram 4 Dull Dog' price='420.000VND' numItemsSold='111' rating={0}/>
+            <DiscountItem img={discountItem1} productName='Apple Watch Series 7 Aluminium Cellular' price='20.490.000VND' numItemsSold='231' rating={5} imgBack={discountItemBack1} brand='Apple'/>
+            <DiscountItem img={discountItem2} productName='Mozard S21 Bluetooth Speaker' price='550.000VND' numItemsSold='264' rating={5} brand='Mozard'/>
+            <DiscountItem img={discountItem3} productName='eValu Spanker' price='220.000VND' numItemsSold='123' rating={0} brand='Hydrus'/>
+            <DiscountItem img={discountItem4} productName='Xmobile Gram 4' price='450.000VND' numItemsSold='183' rating={0} brand='Xmobile'/>
+            <DiscountItem img={discountItem5} productName='Xmobile Gram 4 Dull Dog' price='420.000VND' numItemsSold='111' rating={0} brand='Xmobile'/>
         </div>
 
     </div>
