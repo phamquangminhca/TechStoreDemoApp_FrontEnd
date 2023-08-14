@@ -12,7 +12,7 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 import {TiArrowShuffle} from 'react-icons/ti'
 import {GoSearch} from 'react-icons/go'
 
-function DiscountItem({img, productName, price, numItemsSold, rating, imgBack, brand, itemCode}) {
+function RegularItem({img, productName, price, numItemsSold, rating, imgBack, brand, itemCode}) {
 
   const [hovered, setHovered] = useState(false)
 
@@ -136,8 +136,8 @@ function DiscountItem({img, productName, price, numItemsSold, rating, imgBack, b
   )
 }
 
-DiscountItem.defaultProps = {
+RegularItem.defaultProps = {
   itemCode: "Updating"
 }
 
-export default DiscountItem
+export default RegularItem

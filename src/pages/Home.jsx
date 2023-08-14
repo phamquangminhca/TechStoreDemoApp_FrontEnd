@@ -4,6 +4,8 @@ import Menu from '../components/Menu'
 import ListItems from '../components/ListItems'
 import ListPromotions from '../components/ListPromotions'
 import ListDiscountItems from '../components/ListDiscountItems'
+import FeaturedPhonesList from '../components/FeaturedPhonesList'
+
 
 function Home() {
   return (
@@ -15,6 +17,7 @@ function Home() {
       <ListItems/>
       <ListPromotions/>
       <ListDiscountItems/>
+      <FeaturedPhonesList/>
     </div>
   )
 }

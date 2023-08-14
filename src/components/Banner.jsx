@@ -73,15 +73,15 @@ function Banner() {
             <FaArrowAltCircleRight className='banner__right-arrow' onClick={nextSlide} /> */}
 
             <div className='banner__main-slide first_img'>
-              <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/slider_1.jpg?1667792117405' alt=''/>
+              <img src='https://theme.hstatic.net/200000458129/1001035927/14/slider_1.jpg?v=43' alt=''/>
             </div>
             <div className='banner__main-slide'>
-              <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/slider_2.jpg?1667792117405' alt='' />
+              <img src='https://theme.hstatic.net/200000458129/1001035927/14/slider_2.jpg?v=43' alt='' />
             </div>
 
             <div className='banner_navigation-auto'>
-              <div className='auto-btn1'></div>
-              <div className='auto-btn2'></div>
+              {/* <div className='auto-btn1'></div>
+              <div className='auto-btn2'></div> */}
             </div>
           </div>
 
@@ -95,9 +95,9 @@ function Banner() {
 
         </div>
 
-        <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/bottom_banner_1.jpg?1667792117405' alt='' className='slider-bottom-image' />
-        <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/bottom_banner_2.jpg?1667792117405' alt='' className='slider-bottom-image' />
-        <img src='https://bizweb.dktcdn.net/100/441/086/themes/877811/assets/bottom_banner_3.jpg?1667792117405' alt='' className='slider-bottom-image' />
+        <img src='https://theme.hstatic.net/200000458129/1001035927/14/bottom_banner_1.jpg?v=43' alt='' className='slider-bottom-image' />
+        <img src='https://theme.hstatic.net/200000458129/1001035927/14/bottom_banner_2.jpg?v=43' alt='' className='slider-bottom-image' />
+        <img src='https://theme.hstatic.net/200000458129/1001035927/14/bottom_banner_3.jpg?v=43' alt='' className='slider-bottom-image' />
     </div>
   )
 }
